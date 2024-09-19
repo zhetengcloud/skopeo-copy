@@ -2,8 +2,6 @@ version: 0.2
 
 phases:
   pre_build:
-    runtime-versions:
-      skopeo: v1.16
     commands:
       - echo Nothing to do in the pre_build phase...
   build:
